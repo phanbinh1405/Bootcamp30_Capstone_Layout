@@ -410,6 +410,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: 25px 0 15px;
+  color: #232121;
 }
 
 .blog__footer {
@@ -556,12 +557,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
-
-
 }
 
 @media screen and (max-width: 768px) {
- 
   .section__banner {
     height: 500px;
   }
@@ -639,6 +637,4 @@
   .middle__content > h2 {
     font-size: 35px;
   }
-
- 
 }

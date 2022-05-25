@@ -7,7 +7,7 @@
       var(--main-color),
       hsl(30deg 100% 1% / 20%)
     ),
-    url(/images/banner1.jpg);
+    url(./images/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -55,18 +55,16 @@
 /* ========= ABGENT ======== */
 .agent {
   grid-template-columns: repeat(2, 1fr);
+  background-color: var(--main-color);
 }
 
 .agent__image {
-  background-image: url(/images/banner3.jpg);
-  background-size: cover;
-  background-position: center;
+  background: url(./images/banner3.jpg) no-repeat center/cover;
   min-height: 200px;
 }
 
 .agent__content {
   padding: 96px 72px;
-  background-color: var(--main-color);
 }
 
 .agent__content .agent__title--sub {
@@ -210,7 +208,7 @@
 
 .middle__section {
   position: relative;
-  background-image: url(/images/banner2.jpg);
+  background-image: url(./images/banner2.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -286,7 +284,7 @@
 
 .video__content {
   position: relative;
-  background-image: url(/images/banner3.jpg);
+  background-image: url(./images/banner3.jpg);
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -550,6 +548,15 @@
   .agent,
   .service__content {
     grid-template-columns: 1fr;
+  }
+
+   .agent {
+     padding-top: 48px;
+   }
+
+  .agent__image {
+    background-origin: content-box;
+    padding: 15px;
   }
 
   .category__content,

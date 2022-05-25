@@ -1,0 +1,196 @@
+.section__banner {
+  padding-top: var(--header-height);
+  min-height: 350px;
+  background: linear-gradient(to right, var(--main-color), rgb(5 3 0 / 83%)),
+    url(./images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.path-content {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.path-content > a {
+  color: var(--main-color);
+}
+
+/* =========== ABOUT US ========== */
+
+.about__content {
+  margin-top: 48px;
+}
+.top-row {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  align-items: center;
+}
+
+.about__image > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.article__heading {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 48px;
+  font-family: var(--main-font-family);
+  margin-bottom: 24px;
+}
+
+.about__article p {
+  margin-bottom: 24px;
+}
+
+.article__button a {
+  display: inline-block;
+}
+
+.bottom-row {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 48px;
+}
+
+.bottom-row .col h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 5px;
+  color: var(--main-color);
+  transition: var(--transition);
+}
+
+.bottom-row .col h3:hover {
+  color: var(--second-color);
+}
+
+/* =========== SKILL ========== */
+.section__skill {
+  background-color: #f7f7f7;
+}
+
+.artcile__content,
+.skill__image {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.artcile__content {
+  gap: 60px;
+}
+
+.skill__image {
+  gap: 30px;
+}
+
+.skill__image > img {
+  width: 100%;
+  border-radius: 0.25em;
+}
+
+.acticle__chart {
+  margin-top: 25px;
+}
+
+.chart__item {
+  margin-bottom: 25px;
+}
+
+.chart__item h6 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: var(--main-font-family);
+}
+
+.chart__bar {
+  position: relative;
+  max-width: 100%;
+  height: 6px;
+  background-color: var(--font-color);
+  border-radius: 0.25em;
+}
+
+.chart__bar::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  border-radius: inherit;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: var(--main-color);
+}
+
+/* ========== TEAM ========== */
+.team__title {
+  text-align: center;
+}
+
+.team__content {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.team__image {
+  position: relative;
+}
+
+.team__member:hover .team__details {
+  opacity: 1;
+}
+
+.team__details {
+  position: absolute;
+  bottom: 12%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.socials > a {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 100%;
+  color: #fff;
+  margin-right: 5px;
+
+  background-color: rgba(184, 184, 184, 0.7);
+  transition: var(--transition);
+}
+
+.socials > a:hover {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+.team__image > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.team__member .chef-name {
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-top: 25px;
+  text-align: center;
+}
+
+.team__member p {
+  text-align: center;
+}

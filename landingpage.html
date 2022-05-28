@@ -26,6 +26,16 @@
 
     <!-- Base Css -->
     <link rel="stylesheet" href="./landingpage.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <!-- <link rel="stylesheet" href="./base/base.css"> -->
     <title>Header</title>
   </head>
@@ -656,7 +666,29 @@
           <h2 class="section__title">What People Say</h2>
         </div>
         <div class="testimonial__content">
-          <div class="testimonial__item">
+          <div class="your-class"> 
+            <div class="testimonial__item">
+            <div class="item__content">
+              <a href="#" class="comment-img"
+                ><img src="/images/team1.jpg" alt=""
+              /></a>
+              <div class="quote">
+                <i class="bx bxs-quote-left"></i>
+                <p>OMG! I cannot believe. It's Awesome"</p>
+              </div>
+              <p>
+                My new site is so much faster and easier to work with than my
+                old site. They are here to help the customers to get their
+                success. Nemo sit eos, quod minus eius illo labore. Pellen
+                tesque libero ut justo, ultrices in ligula.
+              </p>
+              <div class="testimonial__info">
+                <h3>Johnson William</h3>
+                <p>Customer</p>
+              </div>
+            </div>
+            </div>
+            <div class="testimonial__item">
             <div class="item__content">
               <a href="#" class="comment-img"
                 ><img src="/images/team2.jpg" alt=""
@@ -676,11 +708,11 @@
                 <p>Customer</p>
               </div>
             </div>
-          </div>
-          <div class="testimonial__item">
+            </div>
+            <div class="testimonial__item">
             <div class="item__content">
               <a href="#" class="comment-img"
-                ><img src="/images/team2.jpg" alt=""
+                ><img src="/images/team3.jpg" alt=""
               /></a>
               <div class="quote">
                 <i class="bx bxs-quote-left"></i>
@@ -698,30 +730,84 @@
               </div>
             </div>
           </div>
-          <div class="testimonial__item">
-            <div class="item__content">
-              <a href="#" class="comment-img"
-                ><img src="/images/team2.jpg" alt=""
-              /></a>
-              <div class="quote">
-                <i class="bx bxs-quote-left"></i>
-                <p>OMG! I cannot believe. It's Awesome"</p>
+        </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- contact- font -->
+    <section class="contact__font">
+      <div class="container">
+        <div class="contact__top top-font">
+          <div class="header-title">
+            <h6 class="title-h6">
+              Get in touch
+            </h6>
+            <h3 class="title-h3">Contact Us</h3>
+            <p class="title-p">
+              Start working with Us that can provide everything you need to generate awareness, drive traffic, connect.
+              We guarantee that you’ll be able to have any issue resolved within 24 hours.
+            </p>
+          </div>
+          <form class="form" action="" method="post">
+            <div class="twice-two">
+              <input class="form-control" type="text" name="" id="" placeholder="name" required>
+              <input class="form-control" type="text" name="" id="" placeholder="email" required>
+              <input class="form-control" type="text" name="" id="" placeholder="Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="twice-right">
+              <button class="btn-primany">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact__bottom bottom-map">
+          <div class="con-details">
+            <div class="contact">
+              <h6>Find Us</h6>
+              <h3>Additional Info</h3>
+            </div>
+            <div class="con-top">
+              <div class="con-left">
+                <i class="fas fa-phone"></i>
               </div>
-              <p>
-                My new site is so much faster and easier to work with than my
-                old site. They are here to help the customers to get their
-                success. Nemo sit eos, quod minus eius illo labore. Pellen
-                tesque libero ut justo, ultrices in ligula.
-              </p>
-              <div class="testimonial__info">
-                <h3>Johnson William</h3>
-                <p>Customer</p>
+              <div class="con-right">
+                <h5>Phone Number</h5>
+                <p>
+                  +(21) 255 088 4943
+                </p>
               </div>
+            </div>
+            <div class="con-top">
+              <div class="con-left">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="con-right">
+                <h5>Email</h5>
+                <p>
+                diner@mail.com
+                </p>
+              </div>
+            </div>
+            <div class="con-top margin-up">
+              <div class="con-left">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div class="con-right">
+                <h5>Office Address</h5>
+                <p>Address here, 434 Food Honey street, London, UK - 62617.</p>
+              </div>
+            </div>
+          </div>
+          <div class="map-content">
+            <div class="map-iframe">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232675.39811254738!2d103.6839569246627!3d1.3437419350129658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1767b42b8ec9%3A0x400f7acaedaa420!2sSingapore!5e1!3m2!1svi!2s!4v1653473492188!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- FOOTER -->
     <footer class="footer footer__section">
       <div class="container">
@@ -815,5 +901,31 @@
         </div>
       </div>
     </footer>
+
+    <!-- scrip -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="/jquery.countup.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(document).ready(function(){
+        $('.your-class').slick({
+          // setting-name: setting-value
+          infinite: true,
+          dots: true,
+          // slidesToShow: 3
+          // slidesToScroll: 3
+
+        });
+      });
+      // $('.single-item').slick();
+    </script>
   </body>
 </html>

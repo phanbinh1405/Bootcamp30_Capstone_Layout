@@ -223,6 +223,7 @@ li {
   letter-spacing: -15px;
   margin-top: 80px;
   margin-bottom: 20px;
+  font-family: var(--main-font-family);
 }
 
 .error__block h1 i {
@@ -234,6 +235,7 @@ li {
   margin-bottom: 25px;
   color: black;
   font-weight: 600;
+  font-family: var(--main-font-family);
 }
 
 .error__block p {

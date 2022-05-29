@@ -194,3 +194,50 @@
 .team__member p {
   text-align: center;
 }
+
+/* ========== RESPONSIVE ========== */
+
+@media screen and (max-width: 992px) {
+
+
+  .about__content .top-row, .artcile__content {
+    grid-template-columns: 1fr;
+  }
+
+  .about__content .bottom-row {
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+  }
+
+  .team__content, .footer__content .footer__row {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .section__banner {
+    min-height: 200px;
+  }
+
+  .path-content {
+    padding: 0;
+  }
+
+  .about__content .bottom-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+   .article__heading {
+     font-size: 30px;
+   }
+
+   .about__content .bottom-row {
+     gap: 20px
+   }
+
+   .about__content .section__title {
+     margin: 0;
+   }
+}

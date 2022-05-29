@@ -166,7 +166,7 @@
   font-weight: 600;
 }
 
-/* ========= CATEGORY ======== */
+/* ========= SERVICES ======== */
 .service__content {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -245,7 +245,7 @@
   margin-right: 24px;
 }
 
-/* ========= CATEGORY ======== */
+/* ========= COUNT ======== */
 .count__content {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;

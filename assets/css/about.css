@@ -2,7 +2,7 @@
   padding-top: var(--header-height);
   min-height: 350px;
   background: linear-gradient(to right, var(--main-color), rgb(5 3 0 / 83%)),
-    url(./images/banner2.jpg);
+    url(../images/banner2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

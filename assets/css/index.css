@@ -7,7 +7,7 @@
       var(--main-color),
       hsl(30deg 100% 1% / 20%)
     ),
-    url(./images/banner1.jpg);
+    url(../images/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -59,7 +59,7 @@
 }
 
 .agent__image {
-  background: url(./images/banner3.jpg) no-repeat center/cover;
+  background: url(../images/banner3.jpg) no-repeat center/cover;
   min-height: 200px;
 }
 
@@ -208,7 +208,7 @@
 
 .middle__section {
   position: relative;
-  background-image: url(./images/banner2.jpg);
+  background-image: url(../images/banner2.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -284,7 +284,7 @@
 
 .video__content {
   position: relative;
-  background-image: url(./images/banner3.jpg);
+  background-image: url(../images/banner3.jpg);
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -512,6 +512,9 @@
 .slick-dots li button:hover:before {
   background-color: var(--main-color);
 }
+
+
+
 /* ======== ANIMATION ========== */
 @keyframes ripple {
   0% {
